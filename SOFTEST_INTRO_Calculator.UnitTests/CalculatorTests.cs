@@ -121,7 +121,7 @@ public class CalculatorTests
     }
 
     [TestCase(1, 2, 3)]         // 2 is not a valid field
-    [TestCase(10, 20, 31)]
+    [TestCase(10, 20, 30)]
     [TestCase(1, 5, 6)]
     [TestCase(100, 1, 101)]     // 100 is too wide for a 2-bit field
     [TestCase(-1, 1, 0)]
